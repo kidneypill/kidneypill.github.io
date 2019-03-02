@@ -45,3 +45,9 @@ search_enabled: true
 color_scheme: "dark"
 
 remote_theme: pmarsceill/just-the-docs
+
+---
+layout: default
+title: Customization
+nav_order: 4
+---
