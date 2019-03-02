@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # just-the-docs theme
 gem "just-the-docs"
+
+# jekyll admin
+gem 'jekyll-admin', group: :jekyll_plugins
