@@ -19,6 +19,7 @@ nav_order: 1
 ## 설치 확인  
 터미널을 열고 아래 커맨드를 입력해서 설치가 성공적으로 되었는지 확인하세요:
 ```
+#스위프트 버전을 확인하는 명령어입니다.
 swift --version
 ```
   
@@ -35,6 +36,7 @@ Target: x86_64-apple-darwin18.2.0
 ## Vapor 설치하기
 ⚠️Vapor를 설치하기에 앞서, Vapor 설치를 도와줄 패키지 매니저인 [Homebrew](https://brew.sh/)를 먼저 설치하세요.  
 ```
+# Homebrew를 설치하는 명령어입니다.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
   
@@ -43,6 +45,7 @@ Vapor Toolbox는 새로운 프로젝트를 만들기 위해 필요한 Vapor의 �
   
 	
 ```
+# brew tap을 통해 repo를 추가한 뒤 brew install을 통해 설치합니다.
 brew tap vapor/tap
 brew install vapor/tap/vapor
 ```
@@ -51,6 +54,7 @@ brew install vapor/tap/vapor
 ## Vapor 설치 확인하기  
 터미널을 열고 아래 명령어를 입력해서 설치가 완료되었나 확인하세요.
 ```
+# vapor의 도움말을 출력하는 명령어입니다.
 vapor --help
 ```
 명령어 목록들이 길게 나열된다면 성공입니다.

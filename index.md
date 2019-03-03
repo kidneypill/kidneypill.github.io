@@ -1,9 +1,10 @@
 ---
 layout: default
+nav_exclude: true
 ---
 
 # Vapor in korean
-![Vapor Image](vapor.png){:width="50" height="50"}
+![Vapor Image](/vapor.png){:width="50" height="50"}
 ```swift
 import Vapor
 

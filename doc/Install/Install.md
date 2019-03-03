@@ -2,9 +2,8 @@
 title: Install
 layout: default
 nav_order: 2
-New field 16: Install
 has_children: true
-permalink: "/Install"
+permalink: "/doc/Install"
 ---
 
 Vapor는 macOS와 Ubuntu에서 사용할 수 있어요.  
