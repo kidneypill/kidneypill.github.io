@@ -22,13 +22,13 @@ try app.run()
 ---
 ## 0. 이 홈페이지의 목적과 대상
 ### 목적 0: Vapor 공식문서 번역
-> 이 홈페이지의 자료는 Vapor의 [공식문서][Vapor]를 기반으로 합니다.
+> 이 홈페이지의 자료는 Vapor의 [공식문서][Vapor doc]를 기반으로 합니다.
 
 ### 목적 1: 초보자를 위한 친절한 설명
 > 공식 문서는 유저가 **Swift**와 기본적인 **웹에 대한 이해**를 하고 있다는 전제 하에 쓰여진 듯 합니다. Swift를 정확히 모르거나 웹에 대한 선수 지식이 없는 사람들에게는 이해하기 힘들 수도 있습니다. 따라서 **공식 문서를 한글화**하는 동시에 **초보자도 쉽게 이해할 수 있도록 정리**하는 것이 이 홈페이지의 두 번째 목적이라고 할 수 있겠습니다.  
 
 ### 대상 0: 웹서버 구축을 고려하는 Swift 초보자
-> Swift 를 잘 모르신다면 공식 문서 [Swift.org][https://swift.org] 를 참조하세요. 웹서버 구축에 있어 어떤 Swift 프레임워크를 선택해야 할지 고민이시라면 구글에 검색해보세요. 이 홈페이지는 Vapor를 다루며 타 프레임워크는 고려 중입니다.
+> Swift 를 잘 모르신다면 공식 문서 [Swift.org](https://swift.org) 를 참조하세요. 웹서버 구축에 있어 어떤 Swift 프레임워크를 선택해야 할지 고민이시라면 구글에 검색해보세요. 이 홈페이지는 Vapor를 다루며 타 프레임워크는 고려 중입니다.
 
 ### 대상 1: 한글로 Vapor 공식문서를 보고 싶은 사람
 
@@ -83,6 +83,7 @@ try app.run()
 ---
 
 [Vapor]: <https://vapor.codes/> "Vapor"
+[Vapor doc]: <https://docs.vapor.codes/3.0/> "Vapor doc"
 [Perfect]: <https://perfect.org> "Perfect"
 [Kitura]: <https://www.kitura.io> "Kitura"
 [Raywend]: <https://raywenderlich.com> "Raywend"

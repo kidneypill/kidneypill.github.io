@@ -27,10 +27,10 @@ Vapor 후원:
 | :----- | :----- | :-----: |
 |  Vapor 디스코드 | 수많은 Vapor 개발자들과 대화[^1] | [방문하기][Vapor Discord] |
 |  API 문서 | 코드 주석으로부터 자동으로 생성된 문서 | [방문하기][Vapor API]  |
-|  Stack Overflow | ```vapor```  태그로 질문하고 답하기 | 방문하기 |
-|  Swift 포럼 | Swift.org 포럼의 Vapor 섹션에 글쓰기 | 방문하기 |
-|  소스 코드 | Vapor가 내부적으로 어떻게 작동하는지 보기 | 방문하기 |
-|  Github 이슈 | Github에서 버그를 제보하거나 기능을 제안 | 방문하기 |
+|  Stack Overflow | ```vapor```  태그로 질문하고 답하기 | [방문하기][Stack Overflow] |
+|  Swift 포럼 | Swift.org 포럼의 Vapor 섹션에 글쓰기 | [방문하기][Swift Forums] |
+|  소스 코드 | Vapor가 내부적으로 어떻게 작동하는지 보기 | [방문하기][Source Code] |
+|  Github 이슈 | Github에서 버그를 제보하거나 기능을 제안 | [방문하기][Github Issues] |
   
 ---
 ## 서비스 제공자

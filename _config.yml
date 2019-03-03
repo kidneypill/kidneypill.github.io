@@ -24,7 +24,7 @@ github_username:  kidneypill
 
 # Build settings
 markdown: kramdown
-theme: "just-the-docs"
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
@@ -42,6 +42,6 @@ plugins:
 
 search_enabled: true
 
-color_scheme: ""
+color_scheme: "dark"
 
 remote_theme: pmarsceill/just-the-docs
