@@ -39,7 +39,7 @@ Vapor 제공자는 당신의 Vapor 프로젝트에 기능을 부여하는 간편
 ---
 ## 글쓴이
 [Tanner Nelson](mailto:tanner@vapor.codes), [Logan Wright](mailto:logan@vapor.codes)과 Vapor의 수백명의 멤버들  
-번역: [Kidneypill](mailto:kidneypill@protonmail.cn)
+번역: [Kidneypill](mailto:kidneypill@protonmail.com)
 
 ---
 

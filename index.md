@@ -70,7 +70,7 @@ try app.run()
 0. 저는 Vapor와 어떤 관계도 없는 한국인입니다.
 1. 또한 전문가도 아닙니다.
 2. 이 홈페이지에는 오류, 오타가 있을 수 있습니다.
-3. 지적이나 제안은 [kidneypill](mailto:kidneypill@protonmail.cn)으로 보내주세요
+3. 지적이나 제안은 [kidneypill](mailto:kidneypill@protonmail.com)으로 보내주세요
 4. 이 사이트를 볼 때는 Vapor의 공식 문서 원본을 같이 보는 것도 좋은 생각입니다.
 
 ---
