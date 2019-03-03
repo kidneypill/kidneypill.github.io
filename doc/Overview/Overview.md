@@ -1,7 +1,7 @@
 ---
 title: Overview
 layout: default
-nav-order: 1
+nav-order: 0
 ---
 
 ## Vapor 문서
@@ -34,7 +34,7 @@ Vapor 후원:
   
 ---
 ## 서비스 제공자
-Vapor 제공자는 당신의 Vapor 프로젝트에 기능을 부여하는 간편한 방법입니다. 제공자에 대한 모든 리스트를 확인하려면 Github에 [vapor-servie] 태그를 검색해 보세요.
+Vapor 제공자는 당신의 Vapor 프로젝트에 기능을 부여하는 간편한 방법입니다. 제공자에 대한 모든 리스트를 확인하려면 Github에 [vapor-service] 태그를 검색해 보세요.
 
 ---
 ## 글쓴이

@@ -3,7 +3,7 @@ title: macOS
 layout: default
 New field 18: macOS
 parent: Install
-nav_order: 1
+nav_order: 0
 ---
 
 ## macOS에 설치하기  
@@ -40,8 +40,7 @@ Target: x86_64-apple-darwin18.2.0
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
   
-Swift 4.1 이상이 설치된 것을 확인했다면 Vapor toolbox를 설치하세요.  
-Vapor Toolbox는 새로운 프로젝트를 만들기 위해 필요한 Vapor의 모든 디펜던시와 편리한 CLI 툴을 포함하고 있어요.  
+Swift 4.1 이상이 설치된 것을 확인했다면 Vapor toolbox를 설치하세요. Vapor Toolbox는 새로운 프로젝트를 만들기 위해 필요한 Vapor의 모든 디펜던시와 편리한 CLI 툴을 포함하고 있어요.  
   
 	
 ```
@@ -61,6 +60,9 @@ vapor --help
 
 ---
 ## 끝
-Vapor를 설치하셨으면 [Getting Started - Hello, World](\helloWorld)에서 새로운 프로젝트를 만들어 보세요.
+Vapor를 설치하셨으면 [Getting Started - Hello, World][helloWorld]에서 새로운 프로젝트를 만들어 보세요.
 
 ---
+
+
+[helloWorld]: </doc/GettingStarted/HelloWorld>
