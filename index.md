@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: default
 ---
 
-# Vapor for korean
+# Vapor in korean
+![Vapor Image](vapor.png){:width="50" height="50"}
 ```swift
 import Vapor
 
@@ -11,23 +12,26 @@ let router = try app.make(Router.self)
 
 router.get("hello") { req in
     return "Hello, world."
+
 }
 
 try app.run()
+
+// https://vapor.codes/
 ```
 ---
 
-## 1. 왜 만들었는가?
+## 1. Vapor 공식문서 한글화의 목적
 
-### 개인적으로 Vapor를 공부하려고
+### Swift 웹프레임워크의 필요성
 
-1. [Vapor][Vapor]는  Swift로 이루어진 웹 프레임워크인데
-2. **iOS**나 **macOS** 앱을 개발하는 데에 있어서 서버가 필요했고
-3. 개같은 [Ruby on rails](https://rubyonrails.org/)를 가지고 서버를 만들면 왠지 호환이 잘 안될 것 같아서
-4. 그리고 Vapor로 만들면 프론트엔드(앱), 백엔드(서버) 모두 다 **Swift** 하나로 가능하니까
-5. 문법 헷갈릴 일도 없고!
+1. [Vapor][Vapor]는  Swift로 이루어진 웹 프레임워크 중 하나
+2. **iOS** 또는 **macOS** 앱을 개발하는 데에 있어서 서버가 필요한 경우
+3. 개같은 [Ruby on rails](https://rubyonrails.org/) 환경에 지쳤을 때
+4. Swift 웹프레임워크를 사용하면 프론트엔드(앱), 백엔드(서버) 모두 다 **Swift** 하나로
 
-### 그런데 Vapor는 한국어 자료가 충분치 않아서
+### 그런데 Vapor는 한국어 자료가 없고...
+
 1. Ruby on rails나 Spring같은 유명한 웹 프레임워크들은 한국에서도 많이 쓰이다보니 번역도 잘 되어 있다.
 2. 하지만! [Vapor][Vapor]는 여러 프로그래밍 언어 중 마이너인 Swift[^1]로 만든 데다가
 3. PerfectlySoft Inc. 의 [Perfect][Perfect]
@@ -67,4 +71,5 @@ try app.run()
 [Kitura]: <https://www.kitura.io> "Kitura"
 [Raywend]: <https://raywenderlich.com> "Raywend"
 
-[^1]:  Swift는 2014년에 모습을 드러냈고, 2019년 현재 급부상중이다.
+
+[^1]:  Swift의 점유율 2019.03.03 기준 약 2.5%로 [여기서](http://pypl.github.io/PYPL.html) 확인할 수 있다.
