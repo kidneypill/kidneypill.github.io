@@ -11,8 +11,8 @@ Vapor는 가장 널리 쓰이는 Swift 웹 프레임워크입니다. 웹사이�
 
 ---
 ## 시작하기
-⚠️Vapor를 처음 사용하는거라면 [Install-macOS](/macOS) 섹션으로 가서 Swift와 Vapor를 설치하세요.   
-Vapor를 설치한 뒤 [Getting started-Hello, world](/helloWorld) 섹션으로 가서 첫 번째 Vapor 앱을 만들어 보세요!
+⚠️Vapor를 처음 사용하는거라면 [Install-macOS](/doc/Install/macOS) 섹션으로 가서 Swift와 Vapor를 설치하세요.   
+Vapor를 설치한 뒤 [Getting started - Hello, world](/doc/GettingStarted/HelloWorld) 섹션으로 가서 첫 번째 Vapor 앱을 만들어 보세요!
 
 ---
 ## Vapor가 맘에 드나요?
