@@ -7,4 +7,4 @@ has_children: true
 permalink: "/doc/GettingStarted"
 ---
 
-123
+간단하고 빠르게 Vapor의 사용법을 습득해보세요.
