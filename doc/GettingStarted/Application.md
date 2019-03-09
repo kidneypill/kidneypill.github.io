@@ -6,7 +6,7 @@ nav_order: 5
 ---
 
 ## 어플리케이션 (Application)
-모든 Vapor 프로젝트는 ```Application```을 하나 갖습니다. Application을 사용해서 서버를 구동하고 부팅 시에 필요한 서비스들을 생성할 수 있습니다.  
+모든 Vapor 프로젝트는 `Application`을 하나 갖습니다. Application을 사용해서 서버를 구동하고 부팅 시에 필요한 서비스들을 생성할 수 있습니다.  
 
 Application에 액세스하기에 최적의 장소는 여러분 프로젝트의 [boot.swift](/doc/GettingStarted/FolderStructure#boot.swift) 파일입니다.
 
@@ -29,7 +29,7 @@ try app.run()
 ```
 하지만, 동시에 Application은 컨테이너이기도 합니다. 어플리케이션을 부팅하기 위해 필요한 서비스를 생성하기 위해 사용할 수 있습니다.  
   
-⚠️Application이나 그로부터 생성된 서비스를 route closure 안에서 사용하지 마세요. 대신에 ```Request```를 사용해서 서비스를 생성하세요.  
+⚠️Application이나 그로부터 생성된 서비스를 route closure 안에서 사용하지 마세요. 대신에 `Request`를 사용해서 서비스를 생성하세요.  
 **boot.swift**
 ```swift
 import Vapor
@@ -43,7 +43,7 @@ public func boot(_ app: Application) throws {
 }
 ```
 
-📖여기서는 route closure 안에 있지 않기 때문에 ```.map```이나 ```.flatMap``` 대신에 ```.wait()```을 사용해도 괜찮습니다.  
+📖여기서는 route closure 안에 있지 않기 때문에 `.map`이나 `.flatMap` 대신에 `.wait()`을 사용해도 괜찮습니다.  
   
 서비스에 대한 자세한 정보는 [Getting Started → Services](/doc/GettingStarted/Services)에서 확인하세요.
 
