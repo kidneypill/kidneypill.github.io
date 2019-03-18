@@ -58,7 +58,7 @@ let futureResponse = futureString.flatMap(to: Response.self) { string in
 print(futureResponse) // Future<Response>
 ```
   
-📖위 예시에서 `.map(to:_:)`를 썼다면  그 결과는 `Future<Future<Response>>`이었을거에요. 끔찍하죠?  
+ℹ️위 예시에서 `.map(to:_:)`를 썼다면  그 결과는 `Future<Future<Response>>`이었을거에요. 끔찍해라!
 
 ---
 ## 연쇄 (Chaining)

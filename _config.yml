@@ -42,6 +42,6 @@ plugins:
 
 search_enabled: true
 
-color_scheme: ""
+color_scheme: "dark"
 
 remote_theme: pmarsceill/just-the-docs

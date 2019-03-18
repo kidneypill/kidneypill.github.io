@@ -19,7 +19,7 @@ public func boot(_ app: Application) throws {
 ```
 다른 웹 프레임워크와 달리, Vapor는 application에 정적으로 액세스하는 걸 허용하지 않습니다. 다른 class나 struct에서 application에 액세스해야 한다면 메소드(method)나 생성자(initializer)를 통해야 합니다.  
   
-ℹ️변수에 대한 정적 액세스 방지를 통해 스레드세이프 락[^1](thread-safe lock)이나 세마포어[^2](semaphore)가 필요하지 않게 되기 때문에 Vapor의 성능을 향상시킵니다.
+ℹ️변수에 대한 정적 액세스를 통해 스레드세이프 락[^1](thread-safe lock)이나 세마포어[^2](semaphore)를 사용할 필요가 없어지기 때문에 Vapor의 성능을 향상시킵니다.
 
 ---
 ## 서비스
@@ -64,5 +64,5 @@ public func boot(_ app: Application) throws {
 > Vapor의 Application에 대해서는 그런 고민을 할 필요가 없습니다.
 
 ---
-[^1]: 스레드세이프 락(thread-safe lock):
-[^2]: 세마포어:
+[^1]: 스레드세이프 락(thread-safe lock): 하나의 공유 자원에 여러 스레드가 접근하는 것을 제한하는 방법입니다.
+[^2]: 세마포어: 하나의 공유 자원에 여러 프로세스가 접근하는 것을 제한하는 방법입니다.
