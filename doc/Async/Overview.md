@@ -47,7 +47,7 @@ print(futureInt) // Future<Int>
   
 	
 ### Flat Map
-`.flatMap(to:_:)` 메소드를 통해 Future 값을 또다른 Future 값으로 변경할 수 있습니다. 이름이 "flat" map인 이유는 중첩된 결과물(e.g. `Future<Future<T>>`)이 나오는걸 방지하기 때문입니다. Generic Future를 평평하게 만든다는 말이죠.  
+`.flatMap(to:_:)` 메소드를 통해 Future 값을 또다른 Future 값으로 변경할 수 있습니다. 이름이 "flat" map인 이유는 중첩된 결과물(e.g. `Future<Future<T>>`)이 나오는걸 방지하기 때문입니다. 1차원으로 만든다는 거죠.  
 
 ```swift
 /// 어떠한 API로부터 Future String을 반환받았다고 가정합시다
@@ -174,7 +174,7 @@ promiseString.fail(error: ...)
 ℹ️Promise는 단 한번만 완료될 수 있습니다. 그 다음의 모든 완료는 무시됩니다.
 
 ### Thread Safety
-Promise는 어느 스레드에서나 완료 ( `succeed(result:)` / `fail(error:)` )될 수 있습니다. 이때문에 Promise가 초기화되기 위해서는 event-loop가 필요합니다.  Promise ensure that the completion action gets returned to its event-loop for execution.
+Promise는 어느 스레드에서나 완료 ( `succeed(result:)` / `fail(error:)` )될 수 있습니다. 이때문에 Promise가 초기화되기 위해서는 event-loop가 필요합니다.  Promise는 완료 액션이 실행을 위해 Event loop로 반환되도록 합니다.
 
 ---
 ## Event Loop
